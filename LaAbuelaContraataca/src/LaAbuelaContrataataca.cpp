@@ -28,7 +28,8 @@ int main(int argc, char* argv[])
 	glutKeyboardFunc(OnKeyboardDown);
 	glutSpecialFunc(onSpecialKeyboardDown);
 
-	mundo.inicializa();
+	
+	//mundo.inicializa();
 
 	//pasarle el control a GLUT,que llamara a los callbacks
 	glutMainLoop();
@@ -45,26 +46,26 @@ void OnDraw(void)
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
 
-	mundo.dibuja();
+	//mundo.dibuja();
 
 	//no borrar esta linea ni poner nada despues
 	glutSwapBuffers();
 }
 void OnKeyboardDown(unsigned char key, int x_t, int y_t)
 {
-	mundo.tecla(key);
+	//mundo.tecla(key);
 
 	glutPostRedisplay();
 }
 
 void onSpecialKeyboardDown(int key, int x, int y)
 {
-	mundo.teclaEspecial(key);
+	//mundo.teclaEspecial(key);
 }
 void OnTimer(int value)
 {
 	//poner aqui el código de animacion
-	mundo.mueve();
+	//mundo.mueve();
 
 	//no borrar estas lineas
 	glutTimerFunc(25, OnTimer, 0);
