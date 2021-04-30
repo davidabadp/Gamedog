@@ -15,12 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="enemigo.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="enemigo.cpp">
+    <ClCompile Include="src\LaAbuelaContrataataca.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
