@@ -139,7 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\LaAbuelaContrataataca.cpp" />
+    <ClInclude Include="enemigo.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="enemigo.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
