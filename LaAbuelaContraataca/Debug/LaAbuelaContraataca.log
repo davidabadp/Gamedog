@@ -1,14 +1,4 @@
-﻿  Bonus.cpp
-  DisparoGel.cpp
-  Enemigo.cpp
-  Escenario.cpp
-  Interacciones.cpp
-  Juego.cpp
-  Jugador.cpp
-  Plataforma.cpp
-  Vector2D.cpp
-  Generando código...
-Bonus.obj : error LNK2019: símbolo externo __imp__glutSolidCube@8 sin resolver al que se hace referencia en la función "public: void __thiscall Bonus::dibuja(void)" (?dibuja@Bonus@@QAEXXZ)
+﻿Bonus.obj : error LNK2019: símbolo externo __imp__glutSolidCube@8 sin resolver al que se hace referencia en la función "public: void __thiscall Bonus::dibuja(void)" (?dibuja@Bonus@@QAEXXZ)
 DisparoGel.obj : error LNK2019: símbolo externo __imp__glutSolidSphere@16 sin resolver al que se hace referencia en la función "public: void __thiscall DisparoGel::dibuja(void)" (?dibuja@DisparoGel@@QAEXXZ)
 Enemigo.obj : error LNK2001: símbolo externo __imp__glutSolidSphere@16 sin resolver
 Jugador.obj : error LNK2001: símbolo externo __imp__glutSolidSphere@16 sin resolver
