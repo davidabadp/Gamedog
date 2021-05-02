@@ -14,6 +14,5 @@ public:
 	virtual ~DisparoGel();
 	void dibuja();
 	void mueve(float t);
-	void estela();
 	void setPos(float ix, float iy);
 };
